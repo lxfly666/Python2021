@@ -1,0 +1,5 @@
+2021-04-19 14:51:21,247-myweb.py[lineno:65]-INFO-静态资源请求地址:/centerxxxxxx
+2021-04-19 14:51:39,621-myweb.py[lineno:47]-INFO-动态资源请求地址:/center.html
+2021-04-19 14:51:40,061-myweb.py[lineno:47]-INFO-动态资源请求地址:/center_data.html
+2021-04-19 14:51:45,773-myweb.py[lineno:47]-INFO-动态资源请求地址:/center11111.html
+2021-04-19 14:51:45,773-myframework.py[lineno:128]-ERROR-没有设置相关的路由信息:/center11111.html
