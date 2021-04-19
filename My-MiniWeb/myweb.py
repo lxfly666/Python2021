@@ -88,22 +88,22 @@ class HttpWebServer(object):
 
 
 def main():
-    # web_server = HttpWebServer(8080)
-    # web_server.start()
-    params = sys.argv
-
-    if len(params) != 2:
-        print("执行的命令格式如下: python3 xxx.py 9000")
-        logging.warning("在终端启动程序参数的个数不等于2!")
-        return
-    if not params[1].isdigit():
-        print("执行的命令格式如下: python3 xxx.py 9000")
-        logging.warning("在终端启动程序参数的类型不是数字字符串!")
-        return
-
-    port = int(params[1])
-    web_server = HttpWebServer(port)
+    web_server = HttpWebServer(8080)
     web_server.start()
+    # params = sys.argv
+    #
+    # if len(params) != 2:
+    #     print("执行的命令格式如下: python3 xxx.py 9000")
+    #     logging.warning("在终端启动程序参数的个数不等于2!")
+    #     return
+    # if not params[1].isdigit():
+    #     print("执行的命令格式如下: python3 xxx.py 9000")
+    #     logging.warning("在终端启动程序参数的类型不是数字字符串!")
+    #     return
+    #
+    # port = int(params[1])
+    # web_server = HttpWebServer(port)
+    # web_server.start()
 
 
 if __name__ == '__main__':
